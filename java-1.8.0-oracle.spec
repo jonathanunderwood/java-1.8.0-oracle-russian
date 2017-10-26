@@ -95,7 +95,8 @@ Group:          Development/Languages
 URL:            http://download.oracle.com/javase/8/docs/
 Source0:        jdk-%{cvsversion}-linux-i586.tar.gz
 Source1:        jdk-%{cvsversion}-linux-x64.tar.gz
-#NoSource:       0
+NoSource:       0
+NoSource:       1
 %if %{tzupdate}
 Source100:      tzupdater-%{tzversion}.zip
 #NoSource:       100
